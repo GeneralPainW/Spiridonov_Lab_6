@@ -5,27 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Spiridonov_Lab_6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="444.375" Width="623.75">
+        Title="MainWindow" Height="444.375" Width="587.188">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBox x:Name="tbOutInField" Margin="10,10,10,306" TextWrapping="Wrap" FontSize="35" FontStyle="Italic" FontWeight="Bold"/>
         <Button x:Name="btnNumb7" Content="7" Margin="10,122,0,0" VerticalAlignment="Top" Height="58" HorizontalAlignment="Left" Width="75" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb8" Content="8" Margin="130,122,0,0" HorizontalAlignment="Left" Width="75" Height="58" VerticalAlignment="Top" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb9" Content="9" HorizontalAlignment="Left" Margin="260,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnDivision" Content="/" HorizontalAlignment="Left" Margin="390,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnDivision_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Left" Margin="520,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnMinus_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb8" Content="8" Margin="90,122,0,0" HorizontalAlignment="Left" Width="75" Height="58" VerticalAlignment="Top" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb9" Content="9" HorizontalAlignment="Left" Margin="170,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnDivision" Content="/" HorizontalAlignment="Left" Margin="250,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnDivision_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Left" Margin="330,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnMinus_Click" FontSize="25" FontWeight="Bold"/>
         <Button x:Name="btnNumb4" Content="4" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb5" Content="5" HorizontalAlignment="Left" Margin="130,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb6" Content="6" HorizontalAlignment="Left" Margin="260,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnMultiplication" Content="*" HorizontalAlignment="Left" Margin="390,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnMultiplication_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="520,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnPlus_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb5" Content="5" HorizontalAlignment="Left" Margin="90,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb6" Content="6" HorizontalAlignment="Left" Margin="170,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnMultiplication" Content="*" HorizontalAlignment="Left" Margin="250,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnMultiplication_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Left" Margin="330,226,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnPlus_Click" FontSize="25" FontWeight="Bold"/>
         <Button x:Name="btnNumb1" Content="1" HorizontalAlignment="Left" Margin="10,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb2" Content="2" HorizontalAlignment="Left" Margin="130,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb3" Content="3" HorizontalAlignment="Left" Margin="260,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnNumb0" Content="0" HorizontalAlignment="Left" Margin="390,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
-        <Button x:Name="btnResult" Content="=" HorizontalAlignment="Left" Margin="520,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnResult_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb2" Content="2" HorizontalAlignment="Left" Margin="90,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb3" Content="3" HorizontalAlignment="Left" Margin="170,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnNumb0" Content="0" HorizontalAlignment="Left" Margin="250,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btnResult" Content="=" HorizontalAlignment="Left" Margin="490,326,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnResult_Click" FontSize="25" FontWeight="Bold"/>
+        <Button x:Name="btn1DivideX" Content="1/X" HorizontalAlignment="Left" Margin="410,122,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="25" FontWeight="Bold" Click="btn1DivideX_Click"/>
+        <Button x:Name="btnSqrtX" Content="SQRT(X)" HorizontalAlignment="Left" Margin="490,122,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnSqrtX_Click"/>
+        <Button x:Name="btnExponentiation2" Content="X^2" HorizontalAlignment="Left" Margin="410,226,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="25" FontWeight="Bold" Click="btnExponentiation2_Click"/>
+        <Button x:Name="btnSinX" Content="SIN(X)" HorizontalAlignment="Left" Margin="490,226,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnSinX_Click"/>
+        <Button x:Name="btnExponentiationY" Content="X^Y" HorizontalAlignment="Left" Margin="330,326,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="25" FontWeight="Bold" Click="btnExponentiationY_Click"/>
+        <Button x:Name="btnCosX" Content="COS(X)" HorizontalAlignment="Left" Margin="410,326,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnCosX_Click"/>
 
     </Grid>
 </Window>

@@ -25,8 +25,8 @@ namespace Spiridonov_Lab_6
             InitializeComponent();
         }
 
-        long a;
-        long b;
+        double a;
+        double b;
 
         enum Operations
         {
@@ -34,7 +34,13 @@ namespace Spiridonov_Lab_6
             SUM,
             MINUS,
             MULT,
-            DIV
+            DIV,
+            EXP_2,
+            EXP_Y,
+            ONE_DIV_X,
+            SIN_X,
+            COS_X,
+            SQRT_X
         }
 
         Operations operation;
@@ -73,6 +79,52 @@ namespace Spiridonov_Lab_6
             operation = Operations.MINUS;
         }
 
+        private void btnExponentiationY_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.EXP_Y;
+        }
+
+        private void btnCosX_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.COS_X;
+            a = Math.Cos(a);
+            tbOutInField.Text = a.ToString();
+            
+        }
+
+        private void btnExponentiation2_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.EXP_2;
+            a = Math.Pow(a, 2);
+            tbOutInField.Text = a.ToString();
+        }
+
+        private void btnSinX_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.SIN_X;
+            a = Math.Sin(a);
+            tbOutInField.Text = a.ToString();
+        }
+
+        private void btn1DivideX_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.ONE_DIV_X;
+            if (a != 0)
+            {
+                a = 1 / a;
+            }
+            else
+                throw new Exception("Деление на 0 запрещено!");
+            tbOutInField.Text = a.ToString();
+        }
+
+        private void btnSqrtX_Click(object sender, RoutedEventArgs e)
+        {
+            operation = Operations.SQRT_X;
+            a = Math.Sqrt(a);
+            tbOutInField.Text = a.ToString();
+        }
+
         private void btnResult_Click(object sender, RoutedEventArgs e)
         {
             switch (operation)
@@ -84,14 +136,23 @@ namespace Spiridonov_Lab_6
                     a -= b;
                     break;
                 case Operations.DIV:
-                    a /= b;
+                    if (b != 0)
+                    {
+                        a /= b;
+                    }
+                    else
+                        throw new Exception("Деление на 0 запрещено!");
                     break;
                 case Operations.MULT:
                     a *= b;
                     break;
+                case Operations.EXP_Y:
+                    a = Math.Pow(a, b);
+                    break;
             }
             b = 0;
             tbOutInField.Text = a.ToString();
+
         }
     }
 }
