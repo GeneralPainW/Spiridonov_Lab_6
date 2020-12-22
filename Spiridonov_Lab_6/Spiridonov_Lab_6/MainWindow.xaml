@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="tbOutInField" Margin="10,10,10,306" TextWrapping="Wrap" FontSize="35" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBox x:Name="tbOutInField" Margin="10,10,94,306" TextWrapping="Wrap" FontSize="35" FontStyle="Italic" FontWeight="Bold"/>
         <Button x:Name="btnNumb7" Content="7" Margin="10,122,0,0" VerticalAlignment="Top" Height="58" HorizontalAlignment="Left" Width="75" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
         <Button x:Name="btnNumb8" Content="8" Margin="90,122,0,0" HorizontalAlignment="Left" Width="75" Height="58" VerticalAlignment="Top" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
         <Button x:Name="btnNumb9" Content="9" HorizontalAlignment="Left" Margin="170,122,0,0" VerticalAlignment="Top" Width="75" Height="58" Click="btnNumb1_Click" FontSize="25" FontWeight="Bold"/>
@@ -32,6 +32,7 @@
         <Button x:Name="btnSinX" Content="SIN(X)" HorizontalAlignment="Left" Margin="490,226,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnSinX_Click"/>
         <Button x:Name="btnExponentiationY" Content="X^Y" HorizontalAlignment="Left" Margin="330,326,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="25" FontWeight="Bold" Click="btnExponentiationY_Click"/>
         <Button x:Name="btnCosX" Content="COS(X)" HorizontalAlignment="Left" Margin="410,326,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnCosX_Click"/>
+        <Button x:Name="btnClear" Content="CLEAR" HorizontalAlignment="Left" Margin="490,31,0,0" VerticalAlignment="Top" Width="75" Height="58" FontSize="18" FontWeight="Bold" Click="btnClear_Click"/>
 
     </Grid>
 </Window>
